@@ -1,0 +1,7 @@
+{
+  "newsletterRegistration": "#newsletter",
+  "newsletterConfirmSuccess": "[data-ui-id='message-success']",
+  "emailSubject": "Bestätigung Ihrer Anmeldung",
+  "greetingsOrigin": "https://tc3494535.emailsys1a.net",
+  "confirmedNewsletterGreetings": "Herzlich willkommen"
+}
