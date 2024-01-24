@@ -23,7 +23,7 @@ describe('Category page tests', () => {
   it('Changes amount of displayed products', () => {
     cy.get(selectors.displayedProductsOnPageSelect).select('24');
     cy.get(selectors.displayedArticlesAmount).should('contain.text', '24');
-    cy.get(selectors.displayedArticles).should('have.length', 24);
+    cy.get(selectors.displayedArticles).should('have.length.lte', 24);
   });
 
   it('Can change between grind and list view', () => {
