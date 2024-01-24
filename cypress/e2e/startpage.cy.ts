@@ -25,7 +25,7 @@ describe('Startpage tests', () => {
   });
 
   it('Validate newsletter', () => {
-    cy.get(selectors.newsletterRegistration).should('be.visible').type('TESTIFY123@mail.test {enter}');
+    cy.get(selectors.newsletterRegistration).should('be.visible').type(selectors.validEmail + '{enter}');
     cy.get(selectors.newsletterConfirmSuccess).should('be.visible');
     cy.get(selectors.newsletterRegistration).type('.invalidEmail. {enter}');
     cy.get(selectors.newsletterError).should('be.visible');
