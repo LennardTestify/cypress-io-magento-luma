@@ -8,5 +8,6 @@
   "newsletterConfirmFail": "[data-ui-id='message-error']",
   "newsletterError": "#newsletter-error",
   "search": "#minisearch-form-top-search",
-  "mainContent": "#maincontent"
+  "mainContent": "#maincontent",
+  "validEmail" : "TESTIFY123@mail.com"
 }
